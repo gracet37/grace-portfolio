@@ -6,12 +6,13 @@ body {
 
 p {
   line-height: 1.75;
+  padding: 0 13px 0 13px;
 }
 
 a {
-  color: #181C52;
+  color: #000080;
   &:hover {
-    color: darken(#181C52, 10%);
+    color: darken(#000080, 10%);
   }
 }
 
@@ -30,16 +31,16 @@ h6 {
 }
 
 .page-section {
-  background-color: #faf6f6;
+  background-color: #FAF0F2;
   padding: 100px 0;
   h2.section-heading {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
-    color: #181C52;
+    color: #000080;
   }
   h3.section-subheading {
-    color: #181C52;
+    color: #000080;
     font-size: 16px;
     font-weight: 400;
     font-style: italic;
@@ -50,7 +51,16 @@ h6 {
 }
 
 .page-section#portfolio {
-  background-color: #faf6f6;
+  background-image: url('../../img/portfolio/whiteline-portfolio.png');
+}
+
+.page-section#skills {
+  background-image: url('../../img/portfolio/whiteline-skills.png');
+  background-size: cover;
+}
+
+.page-section#timeline {
+  background-image: url("../../img/portfolio/whiteline1.png");
   padding: 100px 0;
 }
 

@@ -2,37 +2,41 @@
 #mainNav {
   background-color: #F1D8DB;
   .navbar-toggler {
-    font-size: 12px;
+    font-size: 17px;
+    // font-weight: 800;
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: white;
+    color: #000080;
     border: 0;
-    background-color: #ec5946;
+    // background-color: #ec5946;
     @include heading-font;
   }
-  .navbar-brand {
-    color: #EC1751;
-    @include heading-font;
-    &.active,
-    &:active,
-    &:focus,
-    &:hover {
-      color: darken(#181c52, 10%);
-    }
-  }
+  // .navbar-brand {
+  //   color: #000080;
+  //   @include heading-font;
+  //   &.active,
+  //   &:active,
+  //   &:focus,
+  //   &:hover {
+  //     // color: darken(#181c52, 10%);
+  //     color: white;
+  //   }
+  // }
   .navbar-nav {
     .nav-item {
       .nav-link {
         font-size: 90%;
-        font-weight: 400;
+        font-weight: 500;
         padding: 0.75em 0;
         letter-spacing: 1px;
-        color: #EC1751;
+        color: #000080;
         @include heading-font;
         &.active,
         &:hover {
-          color: darken(#181c52, 10%);
+          color: darken(#000080, 10%);
+          text-decoration-line: underline;
+          // color: white;
         }
       }
     }
@@ -66,6 +70,7 @@
       background-color: white;
       .navbar-brand {
         font-size: 1.25em;
+        // font-color: #000080;
         padding: 12px 0;
       }
     }

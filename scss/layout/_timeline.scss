@@ -5,12 +5,12 @@
   // margin: 20px;
   margin-top: 40px;
   margin-bottom: 40px;
-  margin-right: 10px;
-  margin-left: 20px;
+  margin-right: 20px;
+  margin-left: 10px;
   list-style-type: none;
   display: flex;
   align-items: center;
-  justify-content: center;
+  // justify-content: center;
 }
 
 .li {
@@ -59,15 +59,15 @@
 
 .li.complete {
   .status {
-    border-top: 2px solid #181C52;
+    border-top: 2px solid #000080;
     &:before {
-      background-color: #181C52;
+      background-color: #000080;
       border: none;
       transition: all 200ms ease-in;
     }
     
     h4 {
-      color: #181C52;
+      color: #000080;
       // #specialcolor {
       //   color: blue;
       // }

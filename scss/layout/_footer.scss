@@ -1,7 +1,12 @@
 // Styling for the footer
 .footer {
+  color: #000080;
   padding: 25px 0;
   text-align: center;
+  .icon-credit  {
+    position: right;
+    font-size: 5px;
+  }
   span.copyright {
     font-size: 90%;
     line-height: 40px;
